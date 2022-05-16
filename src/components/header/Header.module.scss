@@ -49,12 +49,12 @@
   color: rgb(43, 124, 43);
 }
 
-.aiguilleblue {
+.aiguilleBlue {
   margin: 1.3rem 0.7rem -1.9rem 0rem;
   transform: rotate(90deg);
 }
 
-.aiguillered {
+.aiguilleRed {
   margin: -1.9rem 0rem 1.3rem 0.7rem;
   transform: rotate(270deg);
 }
@@ -66,14 +66,14 @@
   align-items: center;
 
   p {
-    color: white;
+    color: var(--planktext);
     text-align: center;
     font-size: 1.3rem;
     margin: 2rem 1rem 2rem 1rem;
     padding: 1rem 0.5rem;
     border-top: solid 5px var(--border);
     border-bottom: solid 5px var(--border);
-    background-color: rgba(99, 68, 43);
+    background-color: var(--plank);
     transition: all 0.7s ease-in-out;
   }
 }
@@ -88,4 +88,13 @@
   display: flex;
   flex-direction: column-reverse;
   padding: 2rem;
+}
+
+.navHeader {
+  text-decoration: none;
+}
+
+.noWrap {
+  white-space: nowrap;
+  display: inline-block;
 }

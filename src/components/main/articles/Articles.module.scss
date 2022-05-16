@@ -1,0 +1,265 @@
+/* general */
+
+a {
+  color: var(--link);
+  transition: inherit;
+  text-decoration: none;
+}
+p {
+  margin: 2rem 0rem;
+}
+
+li {
+  margin: 1rem 0rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3rem !important;
+  font-weight: bolder;
+  background-color: var(--home);
+  border-radius: 15px;
+  transition: background 0.7s ease-in-out;
+  padding: 0.5rem;
+}
+
+h5 {
+  font-weight: bolder;
+  text-align: center;
+  width: 80%;
+  margin: 3rem auto;
+  transition: all 0.7s ease-in-out;
+  color: var(--h5);
+}
+
+h6 {
+  color: var(--h5);
+  text-align: center;
+  font-weight: bold;
+}
+
+.lineThrough {
+  text-decoration-line: line-through;
+}
+
+.strongh5 {
+  font-weight: 700;
+}
+
+.strongText {
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
+}
+
+.question {
+  font-style: italic;
+  margin: 4rem auto 1rem 5%;
+  font-size: 1.1rem;
+}
+
+.italicBig {
+  font-style: italic;
+  margin: 2rem auto 1rem auto;
+  max-width: 90%;
+  font-size: 1.1rem;
+}
+
+.citation {
+  font-style: italic;
+}
+
+.fat {
+  font-weight: bolder;
+  color: var(--fat);
+  transition: all 0.7s ease-in-out;
+}
+
+.fatBlue {
+  font-weight: bolder;
+  color: var(--h5);
+  transition: all 0.7s ease-in-out;
+}
+
+.fatNoColor {
+  font-weight: bolder;
+}
+
+.citationAccueil {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 500px;
+}
+
+.citationAccueilText {
+  font-style: italic;
+  text-align: center;
+}
+
+.citationAccueilAutor {
+  text-align: right;
+  margin: -1rem 4rem;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.noWrap {
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.doubleArray {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid var(--font-color);
+  padding: 1rem;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+/* More specific */
+
+.lesPlus {
+  font-weight: bold;
+  color: var(--fat);
+  text-align: center;
+}
+
+.lesMoins {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.versus {
+  margin: -2.2rem 2rem;
+  font-style: italic;
+}
+
+.dot {
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: var(--font-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Images */
+
+.ImgFloatLeft,
+.ImgFloatRight {
+  width: 200px;
+  height: 200px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.ImgFloatLeft {
+  float: left;
+}
+
+.ImgFloatRight {
+  float: right;
+}
+
+.ImgFloatRightTop,
+.ImgFloatRightBottom {
+  width: 200px;
+  height: 200px;
+  margin: 1rem 1rem;
+  border-radius: 10px;
+}
+
+.ImgFloatRightTop {
+  float: right;
+  margin: 0.5rem 1rem 1rem 1rem;
+}
+
+.ImgFloatLeftTop {
+  float: left;
+  margin: 0.5rem 1rem 1rem 0rem;
+  border-radius: 10px;
+}
+
+.imgFit {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+  }
+  span {
+    font-style: italic;
+    margin: auto;
+  }
+}
+
+.imgRectangleLeft {
+  float: left;
+  object-fit: cover;
+  margin: 1rem 1rem 1rem 0rem;
+  border-radius: 10px;
+}
+.imgRectangleLeftTop {
+  float: left;
+  object-fit: cover;
+  margin: 0.5rem 1rem 1rem 0rem;
+  border-radius: 10px;
+}
+
+.imgRectangleRight {
+  float: right;
+  object-fit: cover;
+  margin: 1rem 0rem 1rem 1rem;
+  border-radius: 10px;
+}
+
+.imgRectangleRightTop {
+  float: right;
+  object-fit: cover;
+  margin: 0.5rem 0rem 1rem 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.imgCenter {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+.imgCenterWide {
+  display: flex;
+  margin: 1rem auto;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.ImgRectangle {
+  border-radius: 10px;
+}
+
+.imgRectangleBig {
+  display: flex;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 500px;
+}

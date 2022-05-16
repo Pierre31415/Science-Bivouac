@@ -1,11 +1,25 @@
+.mainContainer {
+  @media only screen and (max-width: 1535px) {
+    margin: 2rem;
+  }
+  transition: none;
+  @media only screen and (max-width: 600px) {
+    margin: 0rem 1rem;
+    transition: none;
+  }
+}
+
 .main {
-  min-height: 800px;
+  min-height: 400px;
   overflow: hidden;
-  margin: 50px;
+  margin: 2rem 0rem;
   background-color: var(--article);
   transition: all 0.7s ease-in-out;
-  text-align: center;
+  text-align: justify;
   border-radius: 10px;
-  transition: all 0.7s ease-in-out;
   color: var(--font-color);
+  h2 {
+    margin: 1rem 0rem;
+  }
+  padding: 2rem;
 }

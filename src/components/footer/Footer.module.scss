@@ -1,3 +1,52 @@
+.footerContainer {
+  padding: 0rem;
+  transition: none;
+  @media only screen and (max-width: 1535px) {
+    padding: 2rem;
+  }
+  @media only screen and (max-width: 600px) {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+}
+
 .footer {
+  min-height: 10rem;
+  background-color: var(--article);
+  transition: all 0.7s ease-in-out;
   text-align: center;
+  border-radius: 10px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding: 1.5rem 1.5rem 1.5rem 1rem;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  margin-bottom: 2rem;
+}
+
+.contact,
+.credits,
+.who {
+  padding: 1rem;
+}
+
+.contact,
+.credits {
+  text-align: center;
+}
+
+.who {
+  text-align: justify;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailAdress {
+  margin-top: 1rem;
 }

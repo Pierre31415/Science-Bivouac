@@ -1,18 +1,47 @@
 :root {
   --font-color: #333;
   --background-color: rgb(212, 186, 138);
-  --test: yellow;
   --bg: url("./img/headerbg1920.jpg");
+  --plank: rgb(99, 68, 43);
+  --planktext: rgb(255, 255, 255);
   --border: white;
   --article: rgb(255, 255, 255);
+  --btnNavBefore: rgb(132, 221, 236);
+  --btnNavAfter: rgb(97, 180, 201);
+  --underTitle: rgb(255, 223, 204);
+  --workingbg: rgb(255, 156, 62);
+  --saw: 100%;
+  --arrow: 0%;
+  --home: rgb(159, 255, 121);
+  --link: rgb(0, 81, 255);
+  --h5: rgb(0, 107, 230);
+  --fat: rgb(31, 184, 0);
+  --msg: rgb(194, 39, 0);
+  --menuBurgerBefore: rgb(255, 223, 204);
+  --menuBurgerAfter: rgb(235, 208, 182);
 }
 
 [data-theme="dark"] {
   --font-color: #eee;
   --background-color: rgb(32, 32, 32);
   --bg: url("./img/dmheaderbg1920.jpg");
+  --plank: rgb(48, 33, 21);
+  --planktext: rgb(214, 214, 214);
   --border: rgb(128, 128, 128);
   --article: rgb(43, 43, 43);
+  --btnNavBefore: rgb(37, 55, 116);
+  --btnNavAfter: rgb(51, 75, 153);
+  --underTitle: rgb(27, 27, 27);
+  --workingbg: rgb(161, 91, 25);
+  --saw: 75%;
+  --arrow: 100%;
+  --home: rgb(54, 53, 156);
+  --link: rgb(0, 238, 255);
+  --h5: rgb(88, 160, 255);
+  --fat: rgb(115, 255, 50);
+  --msg: rgb(255, 133, 32);
+  --menuBurgerBefore: rgb(27, 27, 27);
+  --menuBurgerAfter: rgb(37, 37, 37);
 }
 
 body {

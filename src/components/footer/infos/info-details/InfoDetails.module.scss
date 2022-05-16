@@ -1,0 +1,16 @@
+.infoDetails {
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: justify;
+  background-color: var(--underTitle);
+  display: flex;
+  transition: background 0.7s ease-in-out;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.footerTitle {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bolder;
+}
