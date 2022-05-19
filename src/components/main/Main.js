@@ -22,6 +22,7 @@ export default class Main extends Component {
       <div className={Style.mainContainer}>
         <div className={Style.main}>
           <Routes>
+            <Route path="*" element={<Accueil />} />
             <Route path="/" element={<Accueil />} />
             <Route path="/psy" element={<Psychologie />} />
             <Route path="/temperature" element={<Temperature />} />
