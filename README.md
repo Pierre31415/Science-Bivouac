@@ -1,1 +1,1 @@
-# Sciences-Bivouac
+# Science-Bivouac
