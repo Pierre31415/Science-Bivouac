@@ -1,4 +1,4 @@
-import "./DarkMode.css";
+import "./DarkMode.scss";
 import { ChangeEventHandler } from "react";
 
 const setDark = () => {

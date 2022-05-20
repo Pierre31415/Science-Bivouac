@@ -64,11 +64,13 @@ export default class Hamac extends Component {
           ! 🔎
         </p>
         <h5>Le hamac lui-même</h5>
-        <img
-          className={Style.ImgFloatRightTop}
-          src={require("./img/hamacDiagonal.jpg")}
-          alt="Dormir en diagonale dans le hamac"
-        />
+        <div className={Style.imgArticleContainer}>
+          <img
+            className={Style.imgArticleRightTop}
+            src={require("./img/hamacDiagonal.jpg")}
+            alt="Dormir en diagonale dans le hamac"
+          />
+        </div>
         Plus votre hamac sera <span className={Style.fat}>long</span>, plus
         votre dos sera droit quand vous vous allongerez. <br />
         Un hamac <span className={Style.fat}>large</span> permet aussi de se
@@ -94,12 +96,15 @@ export default class Hamac extends Component {
           s'accrocher à un petit tronc d'arbre mort n'est pas une bonne idée !),
           séparés d'une distance qui dépend de la taille de votre hamac. En ce
           qui me concerne, 5 pas et demi ça fait le job.
-        </p>{" "}
-        <img
-          className={Style.imgRectangleLeftTop}
-          src={require("./img/hamacAngle.PNG")}
-          alt="Le bon angle"
-        />
+        </p>
+        <div className={Style.imgArticleContainer}>
+          {" "}
+          <img
+            className={Style.imgArticleLeftTop}
+            src={require("./img/hamacAngle.PNG")}
+            alt="Le bon angle"
+          />
+        </div>
         <p>
           S'assurer d'avoir{" "}
           <span className={Style.fat}>
@@ -124,11 +129,13 @@ export default class Hamac extends Component {
         <h5>
           <strong className={Style.strongh5}>Le tarp</strong>
         </h5>
-        <img
-          className={Style.imgRectangleRightTop}
-          src={require("./img/tarp.png")}
-          alt="Tarp"
-        />
+        <div className={Style.imgArticleContainer}>
+          <img
+            className={Style.imgArticleRightTop}
+            src={require("./img/tarp.png")}
+            alt="Tarp"
+          />
+        </div>
         <p>
           "Tarp" est le diminutif de "Tarpaulin" en anglais, désignant une
           bâche.
@@ -165,11 +172,13 @@ export default class Hamac extends Component {
           chose du genre "couverture du dessous". Inélégant, mais c'est déjà un
           peu plus clair.
         </p>
-        <img
-          className={Style.ImgFloatLeftTop}
-          src={require("./img/underblanket.jpg")}
-          alt="Underblanket"
-        />
+        <div className={Style.imgArticleContainer}>
+          <img
+            className={Style.imgArticleLeftTop}
+            src={require("./img/underblanket.jpg")}
+            alt="Underblanket"
+          />
+        </div>
         <p>
           L'underblanket est un élément souvent négligé par les personnes
           débutant le bivouac en hamac, il a pourtant un rôle très important d'
@@ -210,12 +219,14 @@ export default class Hamac extends Component {
           <strong className={Style.strongh5}>La moustiquaire</strong>
         </h5>
         <p>
-          {" "}
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/360.jpg")}
-            alt="Moustiquaire"
-          />
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/360.jpg")}
+              alt="Moustiquaire"
+            />
+          </div>
           Dans l'absolu, c'est un élément optionnel, mais ça devient
           indispensable pour les personnes comme moi qui attirent tout ce qui a
           au moins 6 pattes et qui pique à 1 milliard de Km à la ronde !{" "}
@@ -240,15 +251,9 @@ export default class Hamac extends Component {
         <h5>Astuces avancées</h5>
         <p>
           Voici quelques trucs et astuces qui valent le coup d'être connus pour
-          que vous profitiez d'un bivouac en hamac au poil :{" "}
+          que vous profitiez d'un bivouac en hamac au poil :
           <ul>
             <li>
-              {" "}
-              <img
-                className={Style.imgRectangleRightTop}
-                src={require("./img/perfection.webp")}
-                alt="Perfection"
-              />
               <span className={Style.fat}>
                 Accrocher des petits bouts de corde
               </span>{" "}
@@ -257,6 +262,13 @@ export default class Hamac extends Component {
               <span className={Style.fat}>gouttes de pluie</span> de s'y
               échapper plutôt que de couler jusqu'à votre hamac.
             </li>
+            <div className={Style.imgArticleContainer}>
+              <img
+                className={Style.imgArticleRightTop}
+                src={require("./img/perfection.webp")}
+                alt="Perfection"
+              />
+            </div>
             <li>
               Si elle n'en n'a pas déjà, installez une corde bien tendue juste
               sous la moustiquaire et au-dessus du hammac vous permettra d'y{" "}

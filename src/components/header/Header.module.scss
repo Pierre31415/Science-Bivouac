@@ -30,6 +30,10 @@
     max-height: 53%;
     position: relative;
   }
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .center {
@@ -75,6 +79,19 @@
     border-bottom: solid 5px var(--border);
     background-color: var(--plank);
     transition: all 0.7s ease-in-out;
+    @media only screen and (max-width: 600px) {
+      font-size: 0.7rem;
+      margin: auto 0.5rem;
+      padding: 0.1rem 0.2rem;
+      border-bottom: solid 1px var(--border);
+      border-top: solid 1px var(--border);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: row;
+    max-width: 600px;
+    padding: 0.2rem;
   }
 }
 
@@ -82,12 +99,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .darkmodebutton {
   display: flex;
   flex-direction: column-reverse;
   padding: 2rem;
+  @media only screen and (max-width: 600px) {
+    margin: auto 0rem 0rem auto;
+    padding: 1rem;
+  }
 }
 
 .navHeader {
@@ -97,4 +121,16 @@
 .noWrap {
   white-space: nowrap;
   display: inline-block;
+}
+
+.logo600 {
+  display: none;
+  // margin-top: 1rem;
+  img {
+    max-width: 100%;
+    // margin: 0.5rem auto auto 0.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
 }

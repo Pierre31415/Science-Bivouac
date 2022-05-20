@@ -8,7 +8,7 @@ export default class HamacVsTent extends Component {
         <h2>Hamac versus Tente</h2>
         <div>
           <img
-            className={Style.imgCenter}
+            className={Style.imgArticleCenter}
             src={require("./img/tenteVsHamac.jpg")}
             alt="Tente versus Hamac"
           />

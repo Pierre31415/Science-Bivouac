@@ -18,12 +18,13 @@ export default class Loi extends Component {
         <h5>Bivouac vs camping sauvage</h5>
         <p>Ces deux termes désignent deux choses différentes 👉</p>
         <p>
-          {" "}
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/loi2.png")}
-            alt="Bivouaquer légalement"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/loi2.png")}
+              alt="Bivouaquer légalement"
+            />
+          </div>
           <span className={Style.fat}>Le bivouac </span>: Il s'agit d'installer
           sa loyale tente ou son fidèle hamac ou autre le temps d'une nuit, du
           coucher de soleil jusqu'au au lendemain matin.
@@ -77,7 +78,6 @@ export default class Loi extends Component {
         <p>
           Petite liste des interdictions pour le camping sauvage :{" "}
           <ul>
-            {" "}
             <li>
               Sur les rivages de la mer et dans les sites inscrits ou protégés
             </li>
@@ -115,12 +115,13 @@ export default class Loi extends Component {
         </p>
         <h5>Le bivouac</h5>
         <p>
-          {" "}
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/loi1.png")}
-            alt="Hot fuzz"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleLeftTop}
+              src={require("./img/loi1.png")}
+              alt="Hot fuzz"
+            />
+          </div>
           <span className={Style.fat}>
             Les règles sont les mêmes que pour le camping sauvage
           </span>

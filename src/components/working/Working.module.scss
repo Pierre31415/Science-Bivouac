@@ -80,10 +80,12 @@
   white-space: nowrap;
   display: inline-block;
   margin-left: 0.5rem;
-  @media only screen and (max-width: 1535px) {
-    margin-left: 0.5rem;
-  }
-  @media only screen and (max-width: 800px) {
-    margin-left: 0.5rem;
+}
+
+.h3Working600 {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
   }
 }

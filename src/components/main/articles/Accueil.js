@@ -38,8 +38,12 @@ export default class Accueil extends Component {
             Bonne lecture et belles aventures à vous, et vive la science !!
           </h5>
 
-          <div className={Style.imgFit}>
-            <img src={require("./img/accueil01.jpg")} alt="Bivouac de nuit" />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleCenter}
+              src={require("./img/accueil01.jpg")}
+              alt="Bivouac de nuit"
+            />
           </div>
         </div>
       </div>

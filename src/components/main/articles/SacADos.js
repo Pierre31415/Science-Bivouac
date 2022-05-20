@@ -15,11 +15,13 @@ export default class SacADos extends Component {
           Bien choisir <strong className={Style.strongh5}>son sac à dos</strong>
         </h5>
         <p>
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/giantBP.jpg")}
-            alt="Sac à dos géant"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleLeftTop}
+              src={require("./img/giantBP.jpg")}
+              alt="Sac à dos géant"
+            />
+          </div>
           <span className={Style.fat}>Le volume</span> : Le volume nécéssaire ne
           sera pas le même{" "}
           <span className={Style.fatNoColor}>
@@ -94,11 +96,15 @@ export default class SacADos extends Component {
           est de le remplir au moins un peu pour que vous le testiez avec un
           volume proche de celui qu'il aura lors de vos sorties.
         </p>
-        <img
-          className={Style.imgRectangleRightTop}
-          src={require("./img/sarmaTSTRP80.jpg")}
-          alt="Morphologies"
-        />
+        <div className={Style.imgArticleContainer}>
+          {" "}
+          <img
+            className={Style.imgArticleRightTop}
+            src={require("./img/sarmaTSTRP80.jpg")}
+            alt="Morphologies"
+          />
+        </div>
+
         <ul>
           <li>
             Comme dit plus haut,{" "}
@@ -184,12 +190,14 @@ export default class SacADos extends Component {
           affaires d'une grosse pluie, quand bien-même le sac est déperlant !
         </p>
         <p>
-          {" "}
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/BPDeco1.png")}
-            alt="Carte"
-          />
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/BPDeco1.png")}
+              alt="Carte"
+            />
+          </div>
           Deux clés du succès : un <span className={Style.fat}>sursac</span>{" "}
           pour la pluie, qui englobe le sac et qui fait une grande partie du
           boulot, mais une partie seulement car à cause de la pluie qui pénètre

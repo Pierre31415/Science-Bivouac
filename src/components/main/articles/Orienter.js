@@ -7,11 +7,13 @@ export default class Orienter extends Component {
       <div>
         <h2>S'orienter</h2>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/mapDeco1.png")}
-            alt="Carte"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/mapDeco1.png")}
+              alt="Carte"
+            />
+          </div>
           Ici on va se concentrer surtout sur les techniques pour lire une carte
           pour le moment, j'ajouterai plus tard l'orientation avec les étoiles
           quand je l'aurai testée sérieusement.
@@ -58,22 +60,26 @@ export default class Orienter extends Component {
           de destination. Posez votre splendide boussole le long de cette ligne,
           la flèche pointant en direction point d'arrivée. Tournez le cadran de
           telle sorte que sa partie "N" pointe parallèlement au méridien, une
-          grande ligne noire un chouille penchée en France.{" "}
-          <img
-            className={Style.imgRectangleBig}
-            src={require("./img/boussole1.PNG")}
-            alt="Boussole 1"
-          />
+          grande ligne noire un chouille penchée en France.
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleBig}
+              src={require("./img/boussole1.PNG")}
+              alt="Boussole 1"
+            />
+          </div>
         </p>
         <p>
           <span className={Style.fat}>Étape 3</span> : Relevez l'angle formé
           depuis le "N" jusqu'à la flèche rouge. c'est ce qu'on appelle
           l'azimut. Dans l'exemple il est de 200°.
-          <img
-            className={Style.imgRectangleBig}
-            src={require("./img/boussole2.PNG")}
-            alt="Boussole 2"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleBig}
+              src={require("./img/boussole2.PNG")}
+              alt="Boussole 2"
+            />
+          </div>
         </p>
         <p>
           <span className={Style.fat}>Étape 4</span> : À présent tenez la
@@ -81,11 +87,13 @@ export default class Orienter extends Component {
           avec elle jusqu'à ce que la pointe rouge du Nord coincide bien avec le
           "N" du cadran. La flèche rouge vous indique maintenant la voie à
           suivre !
-          <img
-            className={Style.imgRectangleBig}
-            src={require("./img/boussole3.png")}
-            alt="Boussole 3"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleBig}
+              src={require("./img/boussole3.png")}
+              alt="Boussole 3"
+            />
+          </div>
         </p>
         <p>
           Si possible, le mieux est que vous identifiez à l'horizon quelque

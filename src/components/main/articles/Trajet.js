@@ -14,7 +14,7 @@ export default class Trajet extends Component {
         <h5>Quels objectifs ?</h5>
         <p>
           <img
-            className={Style.imgRectangleRightTop}
+            className={Style.imgArticleRightTop}
             src={require("./img/team.jpg")}
             alt="Rando en équipe"
           />
@@ -105,7 +105,7 @@ export default class Trajet extends Component {
           C’est de la folie. Alors que nous voulons juste marcher et bivouaquer
           sans se faire tirer dessus.
         </p>
-        <div className={Style.imgFit}>
+        <div className={Style.imgWithText}>
           <img src={require("./img/chasseurs.jpg")} alt="La chasse c'est nul" />
           <span>
             Source :{" "}

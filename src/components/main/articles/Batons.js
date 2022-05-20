@@ -7,11 +7,13 @@ export default class Batons extends Component {
       <div>
         <h2>Les bâtons</h2>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/poles.png")}
-            alt="Santé Mentale"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/poles.png")}
+              alt="Santé Mentale"
+            />
+          </div>
           Les bâtons de randonnée sont-ils nécessaires ? Non, d’ailleurs
           beaucoup de personnes n’en utilisent pas{" "}
           <span className={Style.lineThrough}>
@@ -79,12 +81,14 @@ export default class Batons extends Component {
           à serrer très fort les mains autour du manche pendant des heures. Une
           dragonne bien utilisée permet presque de ne plus avoir à "tenir" le
           bâton, qui se tient ainsi tout seul grâce à elle.
-          <br />{" "}
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/dragonne.jpg")}
-            alt="Dragonne"
-          />
+          <br />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleLeft}
+              src={require("./img/dragonne.jpg")}
+              alt="Dragonne"
+            />
+          </div>
           Pour bien utiliser la dragonne, il suffit de la régler pour que vous
           soyez à l'aise (que ce soit en passant la main dedans directement ou
           en accomplissant ensuite un petit tour de poignet pour qu'elle passe

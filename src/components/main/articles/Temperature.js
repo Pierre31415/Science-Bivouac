@@ -5,7 +5,7 @@ export default class Temperature extends Component {
   render() {
     return (
       <div>
-        <div className={Style.Temperature}>
+        <div>
           <h2>La température</h2>
           <h5>
             Pourquoi la <strong className={Style.strongh5}>température</strong>{" "}
@@ -88,7 +88,7 @@ export default class Temperature extends Component {
               </ul>
             </div>
             <div className={Style.versus}>
-              <p>Versus</p>
+              <p>Vs</p>
             </div>
             <div className={Style.flex1}>
               <h6>Convection</h6>
@@ -118,11 +118,14 @@ export default class Temperature extends Component {
             du froid (polaire, sac de couchage, ...) n'est rien d'autre que{" "}
             <span className={Style.fat}>l'air inerte</span>.{" "}
             <div>
-              <img
-                className={Style.imgRectangleLeft}
-                src={require("./img/sleepingBag.png")}
-                alt="Sac de couchage"
-              />
+              <div className={Style.imgArticleContainer}>
+                {" "}
+                <img
+                  className={Style.imgArticleLeft}
+                  src={require("./img/sleepingBag.png")}
+                  alt="Sac de couchage"
+                />
+              </div>
             </div>
             Par exemple, le garnissage d'un sac de couchage regroupe une énrome
             quantité de toutes petites poches d'air inerte grâce à son matériau
@@ -160,12 +163,15 @@ export default class Temperature extends Component {
               chanson : humidité, donc conduction, donc froid !
             </li>
 
-            <img
-              className={Style.imgRectangleRight}
-              src={require("./img/sleepWarm.gif")}
-              alt="Dormir au chaud"
-            />
             <li>
+              <div className={Style.imgArticleContainer}>
+                {" "}
+                <img
+                  className={Style.imgArticleRight}
+                  src={require("./img/sleepWarm.gif")}
+                  alt="Dormir au chaud"
+                />
+              </div>
               Bien avoir{" "}
               <span className={Style.fat}>
                 la bouche qui communique directement avec l'extérieur

@@ -5,7 +5,7 @@ export default class Nutrition extends Component {
   render() {
     return (
       <div>
-        <div className={Style.nutrition}>
+        <div>
           <h2>Nutrition</h2>
           <h5>Le Miam Miam, une vaste question 🍪</h5>
 
@@ -25,12 +25,15 @@ export default class Nutrition extends Component {
             nutrition a de particulier dans le cadre de la randonnée ou du
             bivouac ?
           </h5>
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/samPots.png")}
-            alt="Sac à dos surchargé"
-          />
+
           <p>
+            <div className={Style.imgArticleContainer}>
+              <img
+                className={Style.imgArticleLeftTop}
+                src={require("./img/samPots.png")}
+                alt="Sac à dos surchargé"
+              />
+            </div>
             Le premier problème, c'est la{" "}
             <span className={Style.fat}>
               gestion du poids de la nourriture et du nécéssaire pour la
@@ -39,7 +42,7 @@ export default class Nutrition extends Component {
             dans le sac à dos.
           </p>
           <p>
-            Regardez à gauche ce brave Hobbit à l'air désabusé de porter une
+            Regardez ci-contre ce brave Hobbit à l'air désabusé de porter une
             charge si importante d'ustensibles de cuisine et de ne plus avoir la
             place ni pour un bon sac de couchage ni pour une tente. Dommage.
             Maintenant vous savez pourquoi vous ne voyez pas les Hobbits
@@ -77,7 +80,7 @@ export default class Nutrition extends Component {
             <span className={Style.fat}>micro-nutriments</span>.
           </p>
           <div className={Style.doubleArray}>
-            <div className={Style.conduction}>
+            <div className={Style.flex1}>
               <h6>Macro-nutriments</h6>
               <ul>
                 <li>= Protéines, lipides, glucides (simples ou complexes).</li>
@@ -87,9 +90,9 @@ export default class Nutrition extends Component {
               </ul>
             </div>
             <div className={Style.versus}>
-              <p>Versus</p>
+              <p>Vs</p>
             </div>
-            <div className={Style.convection}>
+            <div className={Style.flex1}>
               <h6>Micro-nutriments</h6>
               <ul>
                 <li>= Vitamines, minéraux et oligo-éléments.</li>
@@ -99,11 +102,13 @@ export default class Nutrition extends Component {
             </div>
           </div>
           <p>
-            <img
-              className={Style.ImgFloatRightTop}
-              src={require("./img/karadokLight.png")}
-              alt="Le gras c'est la vie"
-            />
+            <div className={Style.imgArticleContainer}>
+              <img
+                className={Style.imgArticleRightTop}
+                src={require("./img/karadokLight.png")}
+                alt="Le gras c'est la vie"
+              />
+            </div>
             Vous l'aurez compris,{" "}
             <span className={Style.fat}>
               ces deux catégorires sont essentielles
@@ -129,12 +134,13 @@ export default class Nutrition extends Component {
             En pratique du coup, des exemples de repas sains ?
           </p>
           <p>
-            {" "}
-            <img
-              className={Style.imgRectangleRight}
-              src={require("./img/ratatouilleLight.png")}
-              alt="La bonne cuisine"
-            />
+            <div className={Style.imgArticleContainer}>
+              <img
+                className={Style.imgArticleRightTop}
+                src={require("./img/ratatouilleLight.png")}
+                alt="La bonne cuisine"
+              />
+            </div>
             But du jeu : réunir protéines (importantes dans le cadre d'un effort
             sportif pour la récupération musculaire), lipides et glucides
             (surtout des sucres lents dont l'apport énergétique s'étendra

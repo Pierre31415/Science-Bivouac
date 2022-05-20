@@ -176,7 +176,7 @@ function Collapsible4() {
       <div className={Style.category} {...getToggleProps()}>
         {isExpanded ? (
           <div className={Style.catAfter}>
-            <div>PREPARATION</div>
+            <div>PRÉPARATION</div>
             <div>
               <img
                 className={Style.arrow1}
@@ -187,7 +187,7 @@ function Collapsible4() {
           </div>
         ) : (
           <div className={Style.catBefore}>
-            <div>PREPARATION</div>
+            <div>PRÉPARATION</div>
             <div>
               <img
                 className={Style.arrow2}

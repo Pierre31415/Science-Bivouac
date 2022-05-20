@@ -19,11 +19,13 @@ export default class Psychologie extends Component {
           <div>
             <div>
               <p>
-                <img
-                  className={Style.ImgFloatRight}
-                  src={require("./img/psy01.png")}
-                  alt="Santé Mentale"
-                />
+                <div className={Style.imgArticleContainer}>
+                  <img
+                    className={Style.imgArticleRightTop}
+                    src={require("./img/psy01.png")}
+                    alt="Santé Mentale"
+                  />
+                </div>
                 👉 L’OMS définit la{" "}
                 <em>
                   <span className={Style.fat}>santé</span>
@@ -86,11 +88,15 @@ export default class Psychologie extends Component {
           <div>
             <div>
               <p>
-                <img
-                  className={Style.ImgFloatLeft}
-                  src={require("./img/psy02.png")}
-                  alt="Cerveau en bonne santé"
-                />
+                {" "}
+                <div className={Style.imgArticleContainer}>
+                  {" "}
+                  <img
+                    className={Style.imgArticleLeftTop}
+                    src={require("./img/psy02.png")}
+                    alt="Cerveau en bonne santé"
+                  />
+                </div>
                 <span className={Style.noWrap}>
                   <span className={Style.dot}></span>Il permettrait aussi
                 </span>{" "}

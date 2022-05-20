@@ -7,9 +7,9 @@ export default class Working extends Component {
       <div className={Style.workingContainer}>
         <div className={Style.working}>
           <div>
-            <h3>
-              <span className={Style.h2noWrap}>SITE EN </span>
-              <span className={Style.h2noWrap}>CONSTRUCTION !</span>
+            <h3 className={Style.h3Working600}>
+              <span className={Style.h3noWrap}>SITE EN </span>
+              <span className={Style.h3noWrap}>CONSTRUCTION !</span>
             </h3>
             <img
               className={Style.sawing}

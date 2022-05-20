@@ -36,17 +36,17 @@ export default class Noeuds extends Component {
         </p>
         <div className={Style.divColumn}>
           <img
-            className={Style.ImgRectangleRight}
+            className={Style.imgArticleCenter}
             src={require("./img/tendeur1.gif")}
             alt="Noeud tendeur 1"
           />
           <img
-            className={Style.ImgRectangle}
+            className={Style.imgArticleCenter}
             src={require("./img/tendeur2.gif")}
             alt="Noeud tendeur 2"
           />
           <img
-            className={Style.ImgRectangle}
+            className={Style.imgArticleCenter}
             src={require("./img/tendeur3.gif")}
             alt="Noeud tendeur 3"
           />
@@ -60,7 +60,7 @@ export default class Noeuds extends Component {
         </p>
         <div className={Style.divColumn}>
           <img
-            className={Style.ImgRectangle}
+            className={Style.imgArticleCenter}
             src={require("./img/pecheur.gif")}
             alt="Noeud du pêcheur"
           />
@@ -78,7 +78,7 @@ export default class Noeuds extends Component {
         </p>
         <div className={Style.divColumn}>
           <img
-            className={Style.ImgRectangle}
+            className={Style.imgArticleCenter}
             src={require("./img/prussik.jpg")}
             alt="Noeud de Prussik"
           />
@@ -96,7 +96,7 @@ export default class Noeuds extends Component {
         </p>
         <div className={Style.divColumn}>
           <img
-            className={Style.ImgRectangle}
+            className={Style.imgArticleCenter}
             src={require("./img/coulant.gif")}
             alt="Noeud coulant"
           />

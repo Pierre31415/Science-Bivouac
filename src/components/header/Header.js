@@ -11,29 +11,35 @@ export default class Header extends Component {
           <div className={Style.headerglobal}>
             <div className={Style.intro}>
               <NavLink className={Style.navHeader} to="/">
-                <div className={Style.logo}>
-                  <div className={Style.sciences}>Science</div>
-                  <div className={Style.center}>
-                    <img
-                      className={Style.aiguilleBlue}
-                      src={require("./img/ab.png")}
-                      alt="aiguille bleue"
-                    />
-                    &
-                    <img
-                      className={Style.aiguilleRed}
-                      src={require("./img/ar.png")}
-                      alt="aiguille rouge"
-                    />
+                <div>
+                  <div className={Style.logo600}>
+                    <img src={require("./img/logoPNG125.png")} alt="logo" />
                   </div>
-                  <div className={Style.bivouac}>Bivouac</div>
+                  <div className={Style.logo}>
+                    <div className={Style.sciences}>Science</div>
+                    <div className={Style.center}>
+                      <img
+                        className={Style.aiguilleBlue}
+                        src={require("./img/ab.png")}
+                        alt="aiguille bleue"
+                      />
+                      &
+                      <img
+                        className={Style.aiguilleRed}
+                        src={require("./img/ar.png")}
+                        alt="aiguille rouge"
+                      />
+                    </div>
+                    <div className={Style.bivouac}>Bivouac</div>
+                  </div>
                 </div>
               </NavLink>
-
-              <p className={Style.introtext}>
-                Trucs et astuces de bivouac, avec de vrais morceaux de sciences
-                à <span className={Style.noWrap}>l'intérieur !</span>
-              </p>
+              <div>
+                <p className={Style.introtext}>
+                  Trucs et astuces de bivouac, avec de vrais morceaux de
+                  sciences à <span className={Style.noWrap}>l'intérieur !</span>
+                </p>
+              </div>
             </div>
             <div className={Style.darkmodebutton}>
               <DarkMode />

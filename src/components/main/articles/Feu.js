@@ -26,7 +26,7 @@ export default class Feu extends Component {
           possible pour les éviter.
         </p>
         <img
-          className={Style.imgCenterWide}
+          className={Style.imgArticleCenter}
           src={require("./img/incendie2.png")}
           alt="Feu de forêt"
         />
@@ -68,11 +68,14 @@ export default class Feu extends Component {
         </p>
         <h5>TOP 2 : Le réchaud à gaz</h5>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/rechaudGaz.jpg")}
-            alt="Réchaud à gaz"
-          />
+          {" "}
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/rechaudGaz.jpg")}
+              alt="Réchaud à gaz"
+            />
+          </div>
           Très utilisé car il{" "}
           <span className={Style.fat}>
             permet d'avoir simplement et immédiatement du feu
@@ -88,11 +91,15 @@ export default class Feu extends Component {
         </p>
         <h5>TOP 3 : Le réchaud à bois</h5>
         <p>
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/rechaudBois.jpg")}
-            alt="Réchaud à bois"
-          />
+          {" "}
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleLeftTop}
+              src={require("./img/rechaudBois.jpg")}
+              alt="Réchaud à bois"
+            />
+          </div>
           Concrètement, c’est une boîte démontable dans laquelle on allume un
           feu. Ses principaux atouts sont sa{" "}
           <span className={Style.fat}>résilience</span> (vous trouverez toujours
@@ -109,11 +116,15 @@ export default class Feu extends Component {
         </p>
         <h5>TOP 4 : Le feu de camp</h5>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/feuDeCamp.jpg")}
-            alt="Feu de camp"
-          />
+          {" "}
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/feuDeCamp.jpg")}
+              alt="Feu de camp"
+            />
+          </div>
           C’est la vision idyllique du feu en bivouac. Si vous deviez en faire
           un, pensez qu’il est préférable de créer un{" "}
           <span className={Style.fat}>petit feu</span> auprès duquel vous
@@ -146,11 +157,15 @@ export default class Feu extends Component {
           sécurité.
         </p>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/firesteel.jpg")}
-            alt="Firesteel"
-          />
+          {" "}
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/firesteel.jpg")}
+              alt="Firesteel"
+            />
+          </div>
           <span className={Style.fatBlue}>Quels outils ?</span> Le briquet est
           un option intéressante, mais s'il vous lâche c'est fini ! Les
           allumettes sont des outils corrects aussi mais sont inefficaces quand

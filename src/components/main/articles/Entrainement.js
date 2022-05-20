@@ -8,11 +8,13 @@ export default class Entrainement extends Component {
         <h2>L'entraînement : la clé d'un bivouac heureux</h2>
         <h5>L'entraînement aux techniques</h5>
         <p>
-          <img
-            className={Style.imgRectangleRightTop}
-            src={require("./img/tentFail.jpg")}
-            alt="Tente très mal montée"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleRightTop}
+              src={require("./img/tentFail.jpg")}
+              alt="Tente très mal montée"
+            />
+          </div>
           S'entrainer aux techniques avant de partir à l'aventure, c'est
           essentiel ! En effet après une journée de marche, avec la fatigue
           accumulée, la lumière du jour qui s'estompe et peut-être le stress de
@@ -33,11 +35,14 @@ export default class Entrainement extends Component {
         </p>
         <h5>L'entrainement physique</h5>
         <p>
-          <img
-            className={Style.imgRectangleLeftTop}
-            src={require("./img/rocky.webp")}
-            alt="L'entraînement ça paye"
-          />
+          <div className={Style.imgArticleContainer}>
+            {" "}
+            <img
+              className={Style.imgArticleLeftTop}
+              src={require("./img/rocky.webp")}
+              alt="L'entraînement ça paye"
+            />
+          </div>
           Le corps humain est une machine magique{" "}
           <span className={Style.fat}>capable de s'adapter</span>, d'autant plus
           lorsque cela est fait{" "}
@@ -117,11 +122,13 @@ export default class Entrainement extends Component {
           <span className={Style.fat}>habituer à ces sons</span>, à{" "}
           <span className={Style.fat}>les reconnaître</span>, plus vous y serez
           habitué(e) plus vous aurez l'esprit serein.
-          <img
-            className={Style.imgCenterWide}
-            src={require("./img/lapin.gif")}
-            alt="Lapin adultet"
-          />
+          <div className={Style.imgArticleContainer}>
+            <img
+              className={Style.imgArticleCenter}
+              src={require("./img/lapin.gif")}
+              alt="Lapin adultet"
+            />
+          </div>
         </p>
         <p>
           Un <span className={Style.fat}>exercice efficace de relaxation </span>
